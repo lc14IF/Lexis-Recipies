@@ -1,0 +1,18 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(205, 202, 202), rgb(107, 105, 105));
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+}
+
+ul.click a:hover {
+    color: white;
+    
+}
+
+img {
+    width: 100%;
+    
+}
