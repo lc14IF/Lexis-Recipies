@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to bottom, rgb(205, 202, 202), rgb(107, 105, 105));
-    height: 100vh;
+    
 }
 
 .title {
@@ -8,32 +8,62 @@ body {
     background-color: rgb(238, 184, 238);
 }
 
- img {
+ .main-pic img {
     border-color: rgb(238, 184, 238);
     box-sizing: border-box;
     border-start-end-radius: 50%;
     width:99%;
     border-width: 5px;
     border-style: dashed;
-
  }
 
-ul.click a:hover {
+div.click a:hover {
     color: white;
 }
 
-ul.click {
-    list-style-type: none;
-}
-
-ul.click li a {
-    border-style: solid;
-    border-color: black;
+.click div a {
     padding: 5px;
     display: inline-block;
     font-size: 20px;
+    margin: 20px;
     
 }
 h2 {
     text-align: center;
+}
+
+.crolls img, .cookies img {
+width: 25%;
+}
+
+.crolls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cookies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.click {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-content: space-between;
+
+}
+
+.boxes {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.leftbox, .rightbox {
+    width: 100%;
+    background-image: linear-gradient(rgb(224, 158, 202), rgb(80, 77, 77));
+    margin: 0px 10px;
+    align-items: stretch;
 }
