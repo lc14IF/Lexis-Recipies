@@ -11,7 +11,7 @@ body {
  .main-pic img {
     border-color: rgb(238, 184, 238);
     box-sizing: border-box;
-    border-start-end-radius: 50%;
+    border-start-end-radius: 40%;
     width:99%;
     border-width: 5px;
     border-style: dashed;
@@ -59,6 +59,7 @@ width: 25%;
     display: flex;
     justify-content: stretch;
     align-items: stretch;
+    flex: 1;
 }
 
 .leftbox, .rightbox {
@@ -66,4 +67,22 @@ width: 25%;
     background-image: linear-gradient(rgb(224, 158, 202), rgb(80, 77, 77));
     margin: 0px 10px;
     align-items: stretch;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex-direction: column;
+    align-items: end;
+}
+.freespace {
+    
+    background-color: aliceblue;
+    flex-shrink: 1;
+    flex-basis: 0px;
 }
